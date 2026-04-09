@@ -1,11 +1,32 @@
-- 👋 Hi, I’m @TelesforoAleix
-- 👀 I’m interested in learning software development, machine learning, GenAI and quantum computing to create tools to optimise business processes.
-- 🌱 I’m currently learning C# and Python. Previous experience in Web Development with JavaScript.
-- 💞️ I’m looking to collaborate on projects related to business operations and process optimisation.
-- 📫 Feel free to reach me on LinkedIn: https://www.linkedin.com/in/aleix-moreno-telesforo/
-- ⚡ Fun fact: I come from a Business educational background, getting technical by passion.
+# Aleix Moreno Telesforo (@TelesforoAleix)
 
-<!---
-TelesforoAleix/TelesforoAleix is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Building at the intersection of **product, business, and technology**.
+
+Currently focused on **AI, SaaS, workflow systems, and product thinking** — with one foot in real business problems and the other in actually building things.
+
+| What I do | These days |
+|---|---|
+| Turn messy problems into product ideas, explore AI systems with practical business use, and build software prototypes around workflows, operations, and decision-making. | Product work in the Microsoft ecosystem, MSc in Digital Business at Copenhagen Business School, and personal projects around AI, SaaS, and research workflows. |
+
+| Interests | Stack |
+|---|---|
+| `Product Management` `AI` `SaaS` `Digital Business` `Automation` `Computational Finance` `Systems Thinking` | `JavaScript` `Python` `SQL` `C#` `React` `Node.js` `.NET` `PostgreSQL` |
+
+## Building / Exploring
+
+A mix of:
+- experiments
+- product ideas
+- prototypes
+- research-driven tools
+- projects that may become real businesses
+
+## Philosophy
+
+> Start from the problem.  
+> Keep it useful.  
+> Build with leverage.
+
+## Connect
+
+- [LinkedIn](https://linkedin.com/in/aleix-moreno-telesforo/)
