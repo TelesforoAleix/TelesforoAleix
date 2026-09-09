@@ -39,7 +39,9 @@ MSc in Business Administration and Digital Business, Copenhagen Business School,
 ## Background
 
 Student Worker, Product Management at **Microsoft Development Center Copenhagen**, Dynamics
-365 Business Central, February-July 2026.
+365 Business Central, February-July 2026. I delivered a six-part manufacturing foundations
+video series ready for publication and researched AI applications through prototypes and
+evaluation. The AI work was research, not a shipped product.
 
 Before that, I built a B2B SaaS MVP for event organisers through Copenhagen School of
 Entrepreneurship, after validating the problem with 20+ event organisers and enterprise
