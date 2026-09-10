@@ -34,7 +34,7 @@ MSc in Business Administration and Digital Business, Copenhagen Business School,
 | [ClickReplay](https://github.com/TelesforoAleix/ClickReplay) | Windows app and CLI that record and replay mouse and keyboard actions for repeatable screen demos. |
 | [Quantum Finance](https://github.com/TelesforoAleix/quantum-finance) | Substantial contributor to this co-authored MSc research project. The curated public edition includes a methodology overview, shared utilities, and links to the earlier SLR and analysis pipelines. |
 | [Spark](https://github.com/TelesforoAleix/Spark) | Networking-event management MVP for organiser-controlled attendee matching and meeting scheduling. Angular, ASP.NET Core, C#, and PostgreSQL; built to MVP, never launched. |
-| [GeoTest](https://github.com/TelesforoAleix/geo-quiz) | First web-development project: a React quiz game for Catalan geography, with randomised questions across population, altitude, and surface area. |
+| [GeoTest](https://geotest.aleixmorenotelesforo.com) · [Source](https://github.com/TelesforoAleix/geotest) | Early web-development project: a React quiz game for Catalan geography, with randomised questions across population, altitude, and surface area. |
 
 ## Background
 
