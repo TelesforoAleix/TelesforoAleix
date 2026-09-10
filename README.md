@@ -17,24 +17,29 @@ MSc in Business Administration and Digital Business, Copenhagen Business School,
 
 ## Now
 
-- **MSc thesis: _Practical Quantum Advantage in Finance_**. Co-authored research spanning
-  a systematic review of 6,232 records and a 777-paper classified corpus. Assessed practical
-  advantage claims with attention to data-loading costs, resource assumptions, and classical
-  baselines.
+- **[Home Lab](https://github.com/TelesforoAleix/homelab)**. A learning-first, self-hosted AI
+  systems lab running on a used Lenovo M700 Tiny. I am building it layer by layer — infrastructure,
+  remote access, bounded tool execution, model access, and later knowledge retrieval — with the
+  decisions, failures, and verified state documented in public.
+- **[The Factory](https://github.com/TelesforoAleix/factory)**. The public execution-method layer
+  around that infrastructure: reusable agent roles, department contracts, operating objects,
+  project templates, and a read-only management dashboard. It is in active development; the full
+  reusable execution loop is not built yet.
 - **Personal site**. Static portfolio now, retrieval-augmented assistant next. Built with
   Next.js 16, React 19, TypeScript, and CSS Modules.
-- **Current focus**. AI agents, retrieval, context engineering, knowledge systems, and
-  evaluation: the practical question of when an AI system can be trusted to do useful work.
+
+Home Lab and The Factory are the two public layers of a wider personal AI workspace. Project
+output and the knowledge layer remain private; the reusable method stays inspectable.
 
 ## Selected Work
 
 | Project | What it is |
 |---|---|
+| [Home Lab](https://github.com/TelesforoAleix/homelab) | A self-hosted AI systems lab on inexpensive hardware. The running reference build, reproducible guides, architecture decisions, verification records, and failure log are developed together in public. |
 | [aleixmorenotelesforo.com](https://aleixmorenotelesforo.com) | Personal site and portfolio. Static v1 now; retrieval-augmented "ask me" layer planned. |
 | [ClickReplay](https://github.com/TelesforoAleix/ClickReplay) | Windows app and CLI that record and replay mouse and keyboard actions for repeatable screen demos. |
 | [Quantum Finance](https://github.com/TelesforoAleix/quantum-finance) | Substantial contributor to this co-authored MSc research project. The curated public edition includes a methodology overview, shared utilities, and links to the earlier SLR and analysis pipelines. |
 | [Spark](https://github.com/TelesforoAleix/Spark) | Networking-event management MVP for organiser-controlled attendee matching and meeting scheduling. Angular, ASP.NET Core, C#, and PostgreSQL; built to MVP, never launched. |
-| [GeoTest](https://geotest.aleixmorenotelesforo.com) · [Source](https://github.com/TelesforoAleix/geotest) | Early web-development project: a React quiz game for Catalan geography, with randomised questions across population, altitude, and surface area. |
 
 ## Background
 
@@ -62,5 +67,6 @@ matters: it taught me to hear the objection underneath the stated one.
 
 ## Tools I Have Used in Public Work
 
-TypeScript · React · Next.js · CSS Modules · Python · Playwright · LLM extraction pipelines ·
-Zotero/OpenAlex integrations · C# · ASP.NET Core · PostgreSQL · Angular
+TypeScript · React · Next.js · CSS Modules · Python · Shell · Linux · systemd · Docker · Tailscale ·
+Playwright · LLM extraction pipelines · Zotero/OpenAlex integrations · C# · ASP.NET Core ·
+PostgreSQL · Angular
