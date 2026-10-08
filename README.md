@@ -2,10 +2,13 @@
 
 **Be curious.** The technology changes; the method doesn't.
 
-I work between product, research, and implementation: start from a messy business problem,
-test what the technology can actually do, and build enough to make the answer inspectable.
-My path started in operations, moved through venture and event systems, and is now centered
-on AI agents, retrieval, context, knowledge systems, and evaluation.
+I like figuring out why something works the way it does, and I am not very good at stopping at the first answer.
+
+I started in operations, where I learned that the problem in front of you is rarely the whole problem. Wanting to fix those systems pulled me into product; wanting to build better ones pulled me closer to technology.
+
+I have no loyalty to a technology. I care about whether it makes the system better. I have explored blockchain, gone deep on quantum computing, and right now I am focused on AI: agents, retrieval, context, knowledge systems and evaluation.
+
+*This is what I am working on, not what I am.*
 
 MSc in Business Administration and Digital Business, Copenhagen Business School, 2026.
 
@@ -17,46 +20,24 @@ MSc in Business Administration and Digital Business, Copenhagen Business School,
 
 ## Now
 
-- **[Home Lab](https://github.com/TelesforoAleix/homelab)**. A learning-first, self-hosted AI
-  systems lab running on a used Lenovo M700 Tiny. I am building it layer by layer — infrastructure,
-  remote access, bounded tool execution, model access, and later knowledge retrieval — with the
-  decisions, failures, and verified state documented in public.
-- **[The Factory](https://github.com/TelesforoAleix/factory)**. The public execution-method layer
-  around that infrastructure: reusable agent roles, department contracts, operating objects,
-  project templates, and a read-only management dashboard. It is in active development; the full
-  reusable execution loop is not built yet.
-- **Personal site**. Static portfolio now, retrieval-augmented assistant next. Built with
-  Next.js 16, React 19, TypeScript, and CSS Modules.
+- **[HomeLab](https://github.com/TelesforoAleix/homelab-v2)**. The personal AI system I am building for myself, and the base my other projects run on. First version: [homelab-v1](https://github.com/TelesforoAleix/homelab-v1).
+- **[Med-Ask](https://github.com/TelesforoAleix/med-ask)**. A private search assistant over 13 medical textbooks, built for a friend studying medicine.
 
-Home Lab and The Factory are the two public layers of a wider personal AI workspace. Project
-output and the knowledge layer remain private; the reusable method stays inspectable.
-
-## Selected Work
+## Selected work
 
 | Project | What it is |
 |---|---|
-| [Home Lab](https://github.com/TelesforoAleix/homelab) | A self-hosted AI systems lab on inexpensive hardware. The running reference build, reproducible guides, architecture decisions, verification records, and failure log are developed together in public. |
-| [aleixmorenotelesforo.com](https://aleixmorenotelesforo.com) | Personal site and portfolio. Static v1 now; retrieval-augmented "ask me" layer planned. |
-| [ClickReplay](https://github.com/TelesforoAleix/ClickReplay) | Windows app and CLI that record and replay mouse and keyboard actions for repeatable screen demos. |
-| [Quantum Finance](https://github.com/TelesforoAleix/quantum-finance) | Substantial contributor to this co-authored MSc research project. The curated public edition includes a methodology overview, shared utilities, and links to the earlier SLR and analysis pipelines. |
-| [Spark](https://github.com/TelesforoAleix/Spark) | Networking-event management MVP for organiser-controlled attendee matching and meeting scheduling. Angular, ASP.NET Core, C#, and PostgreSQL; built to MVP, never launched. |
+| [Business Central Manufacturing Videos](https://www.youtube.com/playlist?list=PLEyIZHETM3k4) · [ClickReplay](https://github.com/TelesforoAleix/ClickReplay) | Six tutorial videos on manufacturing in Business Central, and the AI-built toolchain behind them. |
+| [Practical Quantum Advantage in Finance](https://github.com/TelesforoAleix/quantum-finance) | Does quantum computing give finance a practical advantage yet? Not yet, and the bottleneck is not the algorithms. |
+| [aleixmorenotelesforo.com](https://aleixmorenotelesforo.com) | Personal site and portfolio. |
 
 ## Background
 
-Student Worker, Product Management at **Microsoft Development Center Copenhagen**, Dynamics
-365 Business Central, February-July 2026. I delivered a six-part manufacturing foundations
-video series ready for publication and researched AI applications through prototypes and
-evaluation. The AI work was research, not a shipped product.
-
-Before that, I built a B2B SaaS MVP for event organisers through Copenhagen School of
-Entrepreneurship, after validating the problem with 20+ event organisers and enterprise
-stakeholders. At European Blockchain Convention, I worked on speaker programming, partnerships,
-registration, networking operations, and a sponsor matchmaking system for a 4,000-attendee
-conference. At Belobaba VC, I took a blockchain accounting platform from market research to
-an investment-committee recommendation.
-
-I also spent eight years in customer-facing retail work alongside two degrees. That part still
-matters: it taught me to hear the objection underneath the stated one.
+- Student Worker, Product Management — Microsoft (MDCC) · Dynamics 365 Business Central, Feb 2026 – Jul 2026.
+- Venture Development Intern — Copenhagen School of Entrepreneurship · Event technology venture, May 2025 – Dec 2025. Never launched.
+- Marketing Operations Manager — European Blockchain Convention, Jan 2023 – Feb 2024.
+- Business Analyst – Blockchain — Belobaba VC, Jun 2022 – Dec 2022.
+- Customer Experience and Operations — Burberry · Son of a Tailor, Jun 2017 – Jan 2026.
 
 ## How I Work
 
@@ -64,9 +45,3 @@ matters: it taught me to hear the objection underneath the stated one.
 - Freeze the method before the analysis, so a result can actually disappoint you.
 - Keep automation inspectable and reversible.
 - Say what was actually true: built, prototyped, researched, and shipped are different words.
-
-## Tools I Have Used in Public Work
-
-TypeScript · React · Next.js · CSS Modules · Python · Shell · Linux · systemd · Docker · Tailscale ·
-Playwright · LLM extraction pipelines · Zotero/OpenAlex integrations · C# · ASP.NET Core ·
-PostgreSQL · Angular
