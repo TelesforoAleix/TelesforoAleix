@@ -3,8 +3,8 @@
 **I design and build AI systems, and I use AI agents to build them.**
 
 My background spans business operations, product development and enterprise software. Today, I
-focus on applied AI: I try to understand real problems, design practical systems and explore how AI
-agents can make software development more effective.
+focus on applied AI: understanding real problems, designing practical systems and exploring how
+AI agents can make software development more effective.
 
 [Website](https://aleixmorenotelesforo.com) · [LinkedIn](https://linkedin.com/in/aleix-moreno-telesforo) · [Email](mailto:hello@aleixmorenotelesforo.com)
 
@@ -12,13 +12,12 @@ agents can make software development more effective.
 
 ## Projects
 
-- **[Home Lab](https://github.com/TelesforoAleix/homelab-v2):** my self-hosted applied-AI
-  platform. It integrates hosted and local models through purpose-based routing, shared APIs and
-  secure execution environments. Factory is built on top of it. It is an AI-assisted software
-  development system that separates planning and orchestration from sandboxed agent execution,
+- **[Home Lab](https://github.com/TelesforoAleix/homelab-v2):** HomeLab provides the infrastructure
+  for model routing, APIs and secure execution. Built on top of it, Factory orchestrates AI-assisted
+  software development, separating planning and orchestration from sandboxed agent execution,
   automated review and deployment. Factory is private for now.
 - **[med-ask](https://github.com/TelesforoAleix/med-ask):** search over a medical student's 13
-  textbooks (about 12,500 pages). Four are indexed so far. It returns the original passages with
+  textbooks (about 12,500 pages). It returns the original passages with
   book and page, and keeps the generated answer apart from the sources.
 - **[Practical Quantum Advantage in Finance](https://github.com/TelesforoAleix/quantum-finance):**
   my MSc thesis. I did an AI-supported review of 777 papers with several LLMs. None of the 13 best
@@ -49,12 +48,14 @@ I own the system architecture, the technical decisions, the execution boundaries
 criteria. AI coding agents implement the changes. I validate them through reviews, tests and
 operational feedback.
 
-| Principle | How I apply it |
+| Practice | What it means |
 |---|---|
-| **Design before implementation** | An AI planner questions me one point at a time until we agree on the design. I write no code before that. |
-| **Context and separation of responsibilities** | I give each AI session one role: research, ideation, planning, orchestration or execution. My private planning repository stays apart from the project repositories, and only a self-contained brief crosses between them. |
-| **Small, verifiable changes** | Each change is one agent session, one branch, one pull request and one done-criterion. It ends with something that runs and is tested. |
-| **Risk-based autonomy** | Agents merge and deploy on their own, with automatic rollback. Only changes that cannot be undone, or that touch secrets, money or public exposure, wait for me. |
-| **Evaluation and cost discipline** | I measure before I add machinery, and I test models on my own past work. Each task uses the cheapest model that does it reliably, and I prefer mature libraries to custom machinery. |
+| **One role per chat** | I keep research, ideation, planning, orchestration and execution in separate AI sessions. Each has one job and only the context it needs. |
+| **Strategy apart from code** | My private planning repository holds direction, decisions and designs. Each project repository holds only what exists and works. Only a self-contained brief crosses from one to the other. |
+| **Design before building** | I research, design and stress-test each change with AI sparring before any code: its fit with the current architecture, its conflicts and its failure modes. Building starts when the design holds. |
+| **Small slices** | Each piece of work is one agent session, one branch, one pull request and one done-criterion. It ends with something that runs. |
+| **Safeguards sized to risk** | Agents merge and deploy on their own, with automatic rollback. Only changes that cannot be undone, or that touch secrets, money or public exposure, wait for me. |
+| **Evidence before abstraction** | I measure before I add machinery. I test models on my own past work, and each task uses the cheapest model that does it reliably. |
+| **Mature tools, honest claims** | Libraries own the machinery; I write code only for the seams and rules between them. Built, running and planned are different words. |
 
 The platform that runs this process: [homelab-v2](https://github.com/TelesforoAleix/homelab-v2).
