@@ -1,47 +1,61 @@
 # Aleix Moreno Telesforo
 
-**Be curious.** The technology changes; the method doesn't.
+**I design and build AI systems, and I use AI agents to build them.**
 
-I like figuring out why something works the way it does, and I am not very good at stopping at the first answer.
+My background spans business operations, product development and enterprise software. Today, I
+focus on applied AI: understanding real problems, designing practical systems and exploring how
+AI agents can make software development more effective.
 
-I started in operations, where I learned that the problem in front of you is rarely the whole problem. Wanting to fix those systems pulled me into product; wanting to build better ones pulled me closer to technology.
-
-I have no loyalty to a technology. I care about whether it makes the system better. I have explored blockchain, gone deep on quantum computing, and right now I am focused on AI: agents, retrieval, context, knowledge systems and evaluation.
-
-*This is what I am working on, not what I am.*
-
-MSc in Business Administration and Digital Business, Copenhagen Business School, 2026.
-
-[aleixmorenotelesforo.com](https://aleixmorenotelesforo.com) ·
-[LinkedIn](https://linkedin.com/in/aleix-moreno-telesforo) ·
-[Email](mailto:hello@aleixmorenotelesforo.com)
+[Website](https://aleixmorenotelesforo.com) · [LinkedIn](https://linkedin.com/in/aleix-moreno-telesforo) · [Email](mailto:hello@aleixmorenotelesforo.com)
 
 ---
 
-## Now
+## Projects
 
-- **[HomeLab](https://github.com/TelesforoAleix/homelab-v2)**. The personal AI system I am building for myself, and the base my other projects run on. First version: [homelab-v1](https://github.com/TelesforoAleix/homelab-v1).
-- **[Med-Ask](https://github.com/TelesforoAleix/med-ask)**. A private search assistant over 13 medical textbooks, built for a friend studying medicine.
+- **[Home Lab](https://github.com/TelesforoAleix/homelab-v2):** HomeLab provides the infrastructure
+  for model routing, APIs and secure execution. Built on top of it, Factory orchestrates AI-assisted
+  software development, separating planning and orchestration from sandboxed agent execution,
+  automated review and deployment. Factory is private for now.
+- **[med-ask](https://github.com/TelesforoAleix/med-ask):** search over a medical student's 13
+  textbooks (about 12,500 pages). It returns the original passages with
+  book and page, and keeps the generated answer apart from the sources.
+- **[Practical Quantum Advantage in Finance](https://github.com/TelesforoAleix/quantum-finance):**
+  my MSc thesis. I did an AI-supported review of 777 papers with several LLMs. None of the 13 best
+  candidates gives a practical advantage once the cost of loading data is counted.
+- **[Business Central Manufacturing Videos](https://www.youtube.com/playlist?list=PLEyIZHETM3k4)
+  and [ClickReplay](https://github.com/TelesforoAleix/ClickReplay):** six tutorial videos that I
+  made at Microsoft with a GenAI toolchain (Copilot agents, the Microsoft Learn MCP server).
+  ClickReplay is the small public tool that I built to record and replay the demo input.
 
-## Selected work
+## What I am exploring
 
-| Project | What it is |
+> How far can AI agents take software development on their own (safely, cheaply and in a way I
+> can measure), and where do I still add the most value?
+
+1. **Capability where it pays.** Which work needs a frontier model, and which can a small or local
+   model do just as well? *I measure models on my own past work, not on public benchmarks.*
+2. **Autonomy that is safe by design.** How much can agents plan, merge and deploy without me?
+   *I size my approval to what a mistake would cost. I do not approve every step.*
+3. **Context, not prompts.** How does a system prepare what an agent needs to know, so that each
+   agent starts small and focused? *I keep strategy apart from execution, and I hand over each
+   piece of work as a self-contained brief.*
+4. **The human's new role.** When agents write the code, what is my job? *I work as architect,
+   decision maker and reviewer, and I watch where my time actually goes.*
+
+## How I work
+
+I own the system architecture, the technical decisions, the execution boundaries and the acceptance
+criteria. AI coding agents implement the changes. I validate them through reviews, tests and
+operational feedback.
+
+| Practice | What it means |
 |---|---|
-| [Business Central Manufacturing Videos](https://www.youtube.com/playlist?list=PLEyIZHETM3k4) · [ClickReplay](https://github.com/TelesforoAleix/ClickReplay) | Six tutorial videos on manufacturing in Business Central, and the AI-built toolchain behind them. |
-| [Practical Quantum Advantage in Finance](https://github.com/TelesforoAleix/quantum-finance) | Does quantum computing give finance a practical advantage yet? Not yet, and the bottleneck is not the algorithms. |
-| [aleixmorenotelesforo.com](https://aleixmorenotelesforo.com) | Personal site and portfolio. |
+| **One role per chat** | I keep research, ideation, planning, orchestration and execution in separate AI sessions. Each has one job and only the context it needs. |
+| **Strategy apart from code** | My private planning repository holds direction, decisions and designs. Each project repository holds only what exists and works. Only a self-contained brief crosses from one to the other. |
+| **Design before building** | I research, design and stress-test each change with AI sparring before any code: its fit with the current architecture, its conflicts and its failure modes. Building starts when the design holds. |
+| **Small slices** | Each piece of work is one agent session, one branch, one pull request and one done-criterion. It ends with something that runs. |
+| **Safeguards sized to risk** | Agents merge and deploy on their own, with automatic rollback. Only changes that cannot be undone, or that touch secrets, money or public exposure, wait for me. |
+| **Evidence before abstraction** | I measure before I add machinery. I test models on my own past work, and each task uses the cheapest model that does it reliably. |
+| **Mature tools, honest claims** | Libraries own the machinery; I write code only for the seams and rules between them. Built, running and planned are different words. |
 
-## Background
-
-- Student Worker, Product Management — Microsoft (MDCC) · Dynamics 365 Business Central, Feb 2026 – Jul 2026.
-- Venture Development Intern — Copenhagen School of Entrepreneurship · Event technology venture, May 2025 – Dec 2025. Never launched.
-- Marketing Operations Manager — European Blockchain Convention, Jan 2023 – Feb 2024.
-- Business Analyst – Blockchain — Belobaba VC, Jun 2022 – Dec 2022.
-- Customer Experience and Operations — Burberry · Son of a Tailor, Jun 2017 – Jan 2026.
-
-## How I Work
-
-- Start from the problem, not the technology.
-- Freeze the method before the analysis, so a result can actually disappoint you.
-- Keep automation inspectable and reversible.
-- Say what was actually true: built, prototyped, researched, and shipped are different words.
+The platform that runs this process: [homelab-v2](https://github.com/TelesforoAleix/homelab-v2).
