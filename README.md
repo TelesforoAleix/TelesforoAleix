@@ -1,16 +1,7 @@
 # Aleix Moreno Telesforo
 
-**Be curious.** The technology changes; the method doesn't.
-
-I like figuring out why something works the way it does, and I am not very good at stopping at the first answer.
-
-I started in operations, where I learned that the problem in front of you is rarely the whole problem. Wanting to fix those systems pulled me into product; wanting to build better ones pulled me closer to technology.
-
-I have no loyalty to a technology. I care about whether it makes the system better. I have explored blockchain, gone deep on quantum computing, and right now I am focused on AI: agents, retrieval, context, knowledge systems and evaluation.
-
-*This is what I am working on, not what I am.*
-
-MSc in Business Administration and Digital Business, Copenhagen Business School, 2026.
+**I design and build AI systems, and I use AI agents to build them.**
+I came to technology from operations and then product.
 
 [aleixmorenotelesforo.com](https://aleixmorenotelesforo.com) ·
 [LinkedIn](https://linkedin.com/in/aleix-moreno-telesforo) ·
@@ -18,30 +9,88 @@ MSc in Business Administration and Digital Business, Copenhagen Business School,
 
 ---
 
-## Now
+## What I am exploring
 
-- **[HomeLab](https://github.com/TelesforoAleix/homelab-v2)**. The personal AI system I am building for myself, and the base my other projects run on. First version: [homelab-v1](https://github.com/TelesforoAleix/homelab-v1).
-- **[Med-Ask](https://github.com/TelesforoAleix/med-ask)**. A private search assistant over 13 medical textbooks, built for a friend studying medicine.
+> How far can AI agents take software development on their own (safely, cheaply and in a way I
+> can measure), and where does a human still add the most value?
 
-## Selected work
+1. **Capability where it pays.** Which work needs a frontier model, and which can a small or local
+   model do just as well? *I measure models on my own past work, not on public benchmarks.*
+2. **Autonomy that is safe by design.** How much can agents plan, merge and deploy without me?
+   *Human approval is sized to what a mistake would cost. It is not given to every step.*
+3. **Context, not prompts.** How does a system prepare what an agent needs to know, so that each
+   agent starts small and focused? *I keep strategy apart from execution, and I hand over each
+   piece of work as a self-contained brief.*
+4. **The human's new role.** When agents write the code, what is my job? *I work as architect,
+   decision maker and reviewer, and I watch where my time actually goes.*
 
-| Project | What it is |
-|---|---|
-| [Business Central Manufacturing Videos](https://www.youtube.com/playlist?list=PLEyIZHETM3k4) · [ClickReplay](https://github.com/TelesforoAleix/ClickReplay) | Six tutorial videos on manufacturing in Business Central, and the AI-built toolchain behind them. |
-| [Practical Quantum Advantage in Finance](https://github.com/TelesforoAleix/quantum-finance) | Does quantum computing give finance a practical advantage yet? Not yet, and the bottleneck is not the algorithms. |
-| [aleixmorenotelesforo.com](https://aleixmorenotelesforo.com) | Personal site and portfolio. |
+## How I work: two levels
 
-## Background
+```mermaid
+flowchart LR
+  subgraph PLAN["Planning repository, private"]
+    direction TB
+    P1[Direction and decisions]
+    P2[Designs]
+    P3[Backlog]
+    P4[Briefs]
+  end
+  subgraph PROJ["Project repositories: code that exists and works"]
+    direction TB
+    R1[Home Lab]
+    R2[med-ask]
+    R3[A project never refers to the planning side]
+  end
+  PLAN -->|self-contained brief| PROJ
+  PROJ -.->|read to check what is true| PLAN
+```
 
-- Student Worker, Product Management — Microsoft (MDCC) · Dynamics 365 Business Central, Feb 2026 – Jul 2026.
-- Venture Development Intern — Copenhagen School of Entrepreneurship · Event technology venture, May 2025 – Dec 2025. Never launched.
-- Marketing Operations Manager — European Blockchain Convention, Jan 2023 – Feb 2024.
-- Business Analyst – Blockchain — Belobaba VC, Jun 2022 – Dec 2022.
-- Customer Experience and Operations — Burberry · Son of a Tailor, Jun 2017 – Jan 2026.
+The planning repository holds what I intend and why. The project repositories hold only what
+works. Only a brief crosses from one side to the other, so each agent gets exactly the context it
+needs. Any session can restart from the repository alone.
 
-## How I Work
+```mermaid
+flowchart LR
+  subgraph ME["Me"]
+    S((Start)) --> A[Idea]
+    A --> B[Design it with me, one question at a time]
+    B --> C{Agreed?}
+    H[I decide]
+  end
+  subgraph AG["Agents"]
+    D[Write the brief]
+    E[Build in a sandbox]
+    F[Review]
+    G{Risky change?}
+    I[Merge and deploy]
+    Z((End))
+  end
+  C -->|no| B
+  C -->|yes| D
+  D --> E --> F --> G
+  G -->|yes| H
+  G -->|no| I
+  H -->|approve| I
+  I --> Z
+```
 
-- Start from the problem, not the technology.
-- Freeze the method before the analysis, so a result can actually disappoint you.
-- Keep automation inspectable and reversible.
-- Say what was actually true: built, prototyped, researched, and shipped are different words.
+The full process, with the platform that runs it:
+[homelab-v2](https://github.com/TelesforoAleix/homelab-v2).
+
+## Projects
+
+- **[Home Lab](https://github.com/TelesforoAleix/homelab-v2):** a self-hosted applied-AI platform.
+  It routes each request by purpose across hosted and local models, and runs coding agents in
+  sandboxes. Its development system, Factory, plans, builds, reviews and deploys the platform with
+  AI agents (Factory is private for now). About 360 slices of work were delivered this way since
+  September 2026.
+- **[med-ask](https://github.com/TelesforoAleix/med-ask):** search over 13 medical textbooks (about
+  12,500 pages) for a medical student. It returns the original passages with book and page, and
+  keeps the generated answer apart from the sources.
+- **[Practical Quantum Advantage in Finance](https://github.com/TelesforoAleix/quantum-finance):**
+  my MSc thesis. An AI-supported review of 777 papers with several LLMs. None of the 13 best
+  candidates gives a practical advantage once the cost of loading data is counted.
+- **[Business Central Manufacturing Videos](https://www.youtube.com/playlist?list=PLEyIZHETM3k4)
+  and [ClickReplay](https://github.com/TelesforoAleix/ClickReplay):** six tutorial videos that I
+  made at Microsoft with a GenAI toolchain (Copilot agents, the Microsoft Learn MCP server). ClickReplay is
+  the small public tool that records and replays the demo input.
