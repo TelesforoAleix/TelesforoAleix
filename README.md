@@ -13,9 +13,10 @@ AI agents can make software development more effective.
 ## Projects
 
 - **[Home Lab](https://github.com/TelesforoAleix/homelab-v2):** HomeLab provides the infrastructure
-  for model routing, APIs and secure execution. Built on top of it, [Factory](https://github.com/TelesforoAleix/factory) orchestrates AI-assisted
-  software development, separating planning and orchestration from sandboxed agent execution,
-  automated review and deployment.
+  for model routing, APIs and secure execution. Built on top of it,
+  [Factory](https://github.com/TelesforoAleix/factory) orchestrates AI-assisted software
+  development, separating planning and orchestration from sandboxed agent execution, automated
+  review and deployment.
 - **[med-ask](https://github.com/TelesforoAleix/med-ask):** search over a medical student's 13
   textbooks (about 12,500 pages). It returns the original passages with
   book and page, and keeps the generated answer apart from the sources.
