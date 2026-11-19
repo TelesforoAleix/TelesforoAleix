@@ -20,8 +20,9 @@ AI agents can make software development more effective.
   textbooks (about 12,500 pages). It returns the original passages with
   book and page, and keeps the generated answer apart from the sources.
 - **[Practical Quantum Advantage in Finance](https://github.com/TelesforoAleix/quantum-finance):**
-  my MSc thesis. I did an AI-supported review of 777 papers with several LLMs. None of the 13 best
-  candidates gives a practical advantage once the cost of loading data is counted.
+  my MSc thesis, co-authored with [Vincent Wallerich](https://github.com/vallahrich). We ran an
+  AI-supported review of 777 papers with several LLMs. None of the 13 strongest template circuits
+  passed all five advantage criteria once the cost of loading data was counted.
 - **[Business Central Manufacturing Videos](https://www.youtube.com/playlist?list=PLEyIZHETM3k4)
   and [ClickReplay](https://github.com/TelesforoAleix/ClickReplay):** six tutorial videos that I
   made at Microsoft with a GenAI toolchain (Copilot agents, the Microsoft Learn MCP server).
