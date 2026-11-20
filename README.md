@@ -6,7 +6,7 @@ My background spans business operations, product development and enterprise soft
 focus on applied AI: understanding real problems, designing practical systems and exploring how
 AI agents can make software development more effective.
 
-[Website](https://aleixmorenotelesforo.com) · [LinkedIn](https://linkedin.com/in/aleix-moreno-telesforo) · [Email](mailto:hello@aleixmorenotelesforo.com)
+[Website](https://aleixmorenotelesforo.com/?utm_source=github&utm_medium=referral) · [LinkedIn](https://linkedin.com/in/aleix-moreno-telesforo) · [Email](mailto:hello@aleixmorenotelesforo.com)
 
 ---
 
