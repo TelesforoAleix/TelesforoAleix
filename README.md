@@ -17,6 +17,10 @@ AI agents can make software development more effective.
   [Factory](https://github.com/TelesforoAleix/factory) orchestrates AI-assisted software
   development, separating planning and orchestration from sandboxed agent execution, automated
   review and deployment.
+- **[The AI Video Production Playbook](https://ai-video-playbook.aleixmorenotelesforo.com/):** a
+  free, independent handbook on how AI films and videos are made. I built it from the production
+  records of 157 projects in the Higgsfield Global Film Festival, with 130,899 recorded generations.
+  Not affiliated with or endorsed by Higgsfield.
 - **[med-ask](https://github.com/TelesforoAleix/med-ask):** search over a medical student's 13
   textbooks (about 12,500 pages). It returns the original passages with
   book and page, and keeps the generated answer apart from the sources.
